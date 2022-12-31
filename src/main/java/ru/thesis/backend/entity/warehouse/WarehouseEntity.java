@@ -9,7 +9,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import ru.thesis.backend.entity.delivery.DeliveryPriceEntity;
 import ru.thesis.backend.entity.order.OrderEntity;
 import ru.thesis.backend.entity.product.ProductStockEntity;
-import ru.thesis.backend.model.WarehouseStatus;
+import ru.thesis.backend.entity.enums.WarehouseStatus;
 
 import java.time.ZonedDateTime;
 import java.util.List;

@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
-import ru.thesis.backend.model.OrderStatus;
+import ru.thesis.backend.entity.enums.OrderStatus;
 
 import java.time.ZonedDateTime;
 

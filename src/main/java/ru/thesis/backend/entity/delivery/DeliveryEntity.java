@@ -8,7 +8,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import ru.thesis.backend.entity.courier.CourierUserEntity;
 import ru.thesis.backend.entity.order.OrderEntity;
-import ru.thesis.backend.model.DeliveryStatus;
+import ru.thesis.backend.entity.enums.DeliveryStatus;
 
 import java.time.ZonedDateTime;
 

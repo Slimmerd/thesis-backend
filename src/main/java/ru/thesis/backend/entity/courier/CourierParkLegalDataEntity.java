@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import ru.thesis.backend.model.Vat;
+import ru.thesis.backend.entity.enums.Vat;
 
 import java.time.ZonedDateTime;
 

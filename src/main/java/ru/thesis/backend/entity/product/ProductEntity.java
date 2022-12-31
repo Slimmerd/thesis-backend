@@ -7,8 +7,8 @@ import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import ru.thesis.backend.entity.category.SubcategoryEntity;
-import ru.thesis.backend.model.Vat;
-import ru.thesis.backend.model.VolumeType;
+import ru.thesis.backend.entity.enums.Vat;
+import ru.thesis.backend.entity.enums.VolumeType;
 
 import java.time.ZonedDateTime;
 import java.util.List;
