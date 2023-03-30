@@ -6,10 +6,13 @@ export type StatsDocument = HydratedDocument<Stats>;
 @Schema()
 export class Stats {
     @Prop()
-    createdAt: Date;
-
-    @Prop({type: Object})
-    jsonData: Object;
+    readonly uID: String;
+    @Prop()
+    readonly stage: String;
+    @Prop()
+    readonly ordersInStage: String;
+    @Prop()
+    readonly actions: Array<String>
 }
 
 export const StatsSchema = SchemaFactory.createForClass(Stats);

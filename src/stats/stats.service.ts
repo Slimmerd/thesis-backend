@@ -11,6 +11,7 @@ export class StatsService {  constructor(
 
     async create(createStatsDto: CreateStatsDto): Promise<Stats> {
         const createdStats = await this.statsModel.create(createStatsDto);
+        console.log(createdStats)
         return createdStats;
     }
 
